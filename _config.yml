@@ -2,13 +2,13 @@ title: Emily Winfield
 description: > # this means to ignore newlines until "baseurl:"
   Engineering Science Robotics Graduate from the University of Toronto
 permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://emilywinfield.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Emily Winfield # add your name
-author-img: emily-winfield.jpg # add your photo
+author-img: me.jpg # add your photo
 about-author: Engineering Science Robotics - University of Toronto # add description
 # social-twitter: # add your Twitter handle
 # social-facebook: # add your Facebook handle
@@ -29,7 +29,7 @@ jobs:
     company: "Inkbox / BIC Skin Creative"
   - title: "Research & Development Intern"
     company: "Huron Digital Pathology"
-    
+
 # Build Settings
 markdown: kramdown
 plugins:
@@ -38,6 +38,6 @@ plugins:
   - jemoji
 
 paginate: 8
-paginate_path: "/page:num"
+paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
