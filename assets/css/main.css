@@ -1479,3 +1479,93 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+.work-experience {
+  margin: 2em 0 1em 0;
+}
+.work-title {
+  font-size: 1.15em;
+  margin-bottom: 0.6em;
+  color: #263959;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.work-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.work-list li {
+  margin-bottom: 1em;
+  padding-bottom: 0.7em;
+  border-bottom: 1px solid #eee;
+}
+.job-title {
+  font-weight: bold;
+  color: #222;
+}
+.company {
+  color: #666;
+  font-size: 0.95em;
+}
+.work-dates {
+  color: #aaa;
+  font-size: 0.85em;
+}
+
+.sidebar {
+  overflow-y: auto;
+}
+
+.work-experience,
+.work-experience .work-title,
+.work-experience .work-list,
+.work-experience .job-title,
+.work-experience .company,
+.work-experience .work-dates {
+  font-size: 13px;  /* or 13px if you prefer */
+}
+
+.copyright p {
+  font-size: 11px;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin: 30px 0;
+}
+
+.photo-grid figure {
+  background: #fafafa;
+  margin: 0;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 240px; /* ensures consistent figure height */
+}
+
+.photo-grid img {
+  max-width: 100%;
+  max-height: 240px;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* <-- Shows the full image, no crop */
+  background: #eee;    /* subtle background for letterbox/pillarbox */
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto 8px auto;
+}
+
+.photo-grid figcaption {
+  font-size: 13px;
+  color: #555;
+  margin-top: 4px;
+}

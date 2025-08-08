@@ -11,21 +11,10 @@ layout: default
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
     </div>
-  </header> <!-- End Header -->
-  <footer>
+    <!-- Contact Section (moved above work experience) -->
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
       <ul>
-        {% if site.social-twitter %}
-          <li><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        {% endif %}
-        {% if site.social-facebook %}
-          <li><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        {% else %}
-          <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        {% endif %}
         {% if site.social-github %}
           <li class="github"><a href="http://github.com/{{site.social-github}}" target="_blank"><i class="fa fa-github"></i></a></li>
         {% else %}
@@ -42,12 +31,36 @@ layout: default
           <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         {% endif %}
       </ul>
-    </section> <!-- End Section Contact -->
+    </section>
+     <hr class="sidebar-separator">
+    <!-- Work Experience Section -->
+    <section class="work-experience">
+      <h3 class="work-title">Work Experience</h3>
+      <ul class="work-list">
+        <li>
+          <div class="job-title">Student Researcher</div>
+          <div class="company">John H. Daniels Faculty of Architecture, Landscape, and Design</div>
+          <div class="work-dates">September 2024 – April 2025</div>
+        </li>
+        <li>
+          <div class="job-title">Process Engineering Intern</div>
+          <div class="company">Inkbox / BIC Skin Creative</div>
+          <div class="work-dates">June 2023 – June 2024</div>
+        </li>
+        <li>
+          <div class="job-title">R&D Intern</div>
+          <div class="company">Huron Digital Pathology</div>
+          <div class="work-dates">May 2022 – August 2022</div>
+        </li>
+      </ul>
+    </section>
+  </header>
+  <footer>
     <div class="copyright">
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
-  </footer> <!-- End Footer -->
-</aside> <!-- End Sidebar -->
+  </footer>
+</aside>
 <div class="content-box clearfix">
   {{ content }}
 </div>
