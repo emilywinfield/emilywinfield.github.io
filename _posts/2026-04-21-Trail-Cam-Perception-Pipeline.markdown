@@ -3,7 +3,7 @@ layout: post
 title: 🦌 Trail Cam Perception — Field Deployment Pipeline
 date: 2026-04-21
 description: A production-ready two-stage computer vision pipeline that automatically sorts and identifies wildlife from trail camera images, with a Streamlit UI and auto-generated PDF reports.
-img: haycock-deer.jpg
+img: haycock-deer.JPG
 fig-caption:
 ---
 
