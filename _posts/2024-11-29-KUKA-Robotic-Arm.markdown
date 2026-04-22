@@ -4,7 +4,7 @@ title: KUKA Robotic Arm – Path & Trajectory Planning
 date: 2024-11-29
 description: A hands-on lab project applying kinematics, motion planning, and control theory to a 6‑DoF KUKA industrial arm using MATLAB.
 img: kuka-drawing.jpg
-fig-caption: Sample trajectory plotted in MATLAB
+fig-caption: 
 ---
 
 I worked with a **6‑DoF KUKA industrial manipulator**, implementing core robotics algorithms in **MATLAB**. The project focused on:
