@@ -3,7 +3,7 @@ layout: post
 title: Computer Vision Projects
 date: 2024-09-21
 description: Computer Vision Projects
-img: code.jpg
+img: rob501-ass3.png
 fig-caption: 
 ---
 
